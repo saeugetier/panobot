@@ -7,3 +7,4 @@ PROJECT_NAME := app-template
 
 include $(IDF_PATH)/make/project.mk
 
+CXXFLAGS += -Wno-comment -Wno-strict-aliasing -Wno-builtin-macro-redefined -fpermissive -w
