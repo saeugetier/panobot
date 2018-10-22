@@ -37,6 +37,10 @@ e-mail   :  robert.fach@gmx.net
 #include <menuIO/keyIn.h>
 #include <menuIO/chainStream.h>
 
+#include <TMCStepper.h>
+
+TMC2208Stepper driver_pan = TMC2208Stepper(&Serial1, 0.11);
+
 using namespace Menu;
 
 //panobot logic & motor control
