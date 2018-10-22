@@ -40,6 +40,7 @@ e-mail   :  robert.fach@gmx.net
 #include <TMCStepper.h>
 
 TMC2208Stepper driver_pan = TMC2208Stepper(&Serial1, 0.11);
+TMC2208Stepper driver_tilt = TMC2208Stepper(&Serial1, 0.11);
 
 using namespace Menu;
 
