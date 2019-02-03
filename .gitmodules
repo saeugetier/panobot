@@ -1,0 +1,22 @@
+[submodule "components/arduino/libraries/AccelStepper"]
+	path = components/arduino/libraries/AccelStepper
+	url = https://github.com/adafruit/AccelStepper
+
+[submodule "components/arduino/libraries/ArduinoMenu"]
+	path = components/arduino/libraries/ArduinoMenu
+	url = https://github.com/neu-rah/ArduinoMenu
+
+[submodule "components/arduino/libraries/U8g2_Arduino"]
+	path = components/arduino/libraries/U8g2_Arduino
+	url = https://github.com/olikraus/U8g2_Arduino
+
+[submodule "components/arduino/libraries/BLE"]
+	path = components/arduino/libraries/BLE
+	url = https://github.com/nkolban/ESP32_BLE_Arduino.git
+
+[submodule "components/arduino/libraries/AzureIoT"]
+	path = components/arduino/libraries/AzureIoT
+	url = https://github.com/VSChina/ESP32_AzureIoT_Arduino
+
+
+
